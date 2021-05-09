@@ -1,4 +1,4 @@
-# razorpay-vuejs
+# Razorpay integration with Vuejs
 
 ## Project setup
 ```
@@ -14,6 +14,15 @@ npm run serve
 ```
 npm run build
 ```
+
+## Configuration
+
+- Add Razorpay Key Id and Key Secret in ```function->index.js```
+
+- Add Razorpay Key Id and web service urls in ```Home.vue```
+
+- Setup your firebase project and add project id in ```.firebaserc``` file
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
